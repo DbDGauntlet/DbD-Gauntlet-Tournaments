@@ -1,6 +1,6 @@
 {
 	"Name": "",
-	"Version": 1755973301,
+	"Version": 1756235449,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -9,6 +9,7 @@
 			"SurvivorIndvPerkBans": [
 				"0",
 				"3",
+				"285",
 				"5",
 				"6",
 				"52",
@@ -30,6 +31,8 @@
 				"246",
 				"28",
 				"273",
+				"286",
+				"288",
 				"29",
 				"279",
 				"43",
@@ -44,6 +47,7 @@
 				"274",
 				"252",
 				"59",
+				"289",
 				"62",
 				"66",
 				"259",
@@ -67,6 +71,8 @@
 				"263",
 				"260",
 				"253",
+				"290",
+				"287",
 				"254"
 			],
 			"KillerIndvPerkBans": [
@@ -87,6 +93,7 @@
 				"166",
 				"169",
 				"170",
+				"283",
 				"171",
 				"172",
 				"175",
@@ -98,6 +105,7 @@
 				"196",
 				"271",
 				"205",
+				"284",
 				"209",
 				"211",
 				"213",
@@ -764,16 +772,20 @@
 		},
 		{
 			"Name": "The Huntress",
-			"KillerNotes": "",
+			"KillerNotes": "On Wrecker's Yard Killer brings Cut Coin.\n\nOn Coal Tower 1 and Dead Dawg Saloon Killer brings Bloodied or Torn Blueprint.\n\nOn all maps survivors bring one Annotated Blueprint and one Vigo's Shroud.",
 			"IsDisabled": false,
 			"Map": [
-				0
+				"0",
+				"8",
+				"33"
 			],
 			"BalanceTiers": [
-				0
+				0,
+				2
 			],
 			"SurvivorBalanceTiers": [
-				0
+				0,
+				2
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
@@ -785,14 +797,25 @@
 			"KillerWhitelistedPerks": [],
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [],
-			"IndividualAddonBans": [],
-			"ItemWhitelist": [],
+			"IndividualAddonBans": [
+				157,
+				158
+			],
+			"ItemWhitelist": [
+				0,
+				5
+			],
 			"AddonWhitelist": {
 				"Firecracker": {
 					"Addons": []
 				},
 				"Flashlight": {
-					"Addons": []
+					"Addons": [
+						1,
+						2,
+						3,
+						4
+					]
 				},
 				"Med-Kit": {
 					"Addons": []
@@ -810,8 +833,15 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"SurvivorOfferings": [
+				2,
+				5
+			],
+			"KillerOfferings": [
+				0,
+				1,
+				5
+			]
 		},
 		{
 			"Name": "The Cannibal",
