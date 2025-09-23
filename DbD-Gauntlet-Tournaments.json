@@ -1,6 +1,6 @@
 {
 	"Name": "",
-	"Version": 1757794532,
+	"Version": 1758597945,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -2541,16 +2541,20 @@
 		},
 		{
 			"Name": "The Dark Lord",
-			"KillerNotes": "",
+			"KillerNotes": "On Wrecker's Yard Killer brings Cut Coin.\n\nOn Wretched Shop or Coal Tower 2 Killer brings Bloodied or Torn Blueprint.\n\nOn all maps survivors bring one Vigo's Shroud and one Annotated Blueprint.",
 			"IsDisabled": false,
 			"Map": [
-				0
+				"42",
+				"8",
+				"9"
 			],
 			"BalanceTiers": [
-				0
+				0,
+				2
 			],
 			"SurvivorBalanceTiers": [
-				0
+				0,
+				2
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
@@ -2562,14 +2566,27 @@
 			"KillerWhitelistedPerks": [],
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [],
-			"IndividualAddonBans": [],
-			"ItemWhitelist": [],
+			"IndividualAddonBans": [
+				733,
+				735,
+				737,
+				738
+			],
+			"ItemWhitelist": [
+				0,
+				5
+			],
 			"AddonWhitelist": {
 				"Firecracker": {
 					"Addons": []
 				},
 				"Flashlight": {
-					"Addons": []
+					"Addons": [
+						1,
+						2,
+						3,
+						4
+					]
 				},
 				"Med-Kit": {
 					"Addons": []
@@ -2587,8 +2604,15 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"SurvivorOfferings": [
+				2,
+				5
+			],
+			"KillerOfferings": [
+				0,
+				1,
+				5
+			]
 		},
 		{
 			"Name": "The Houndmaster",
