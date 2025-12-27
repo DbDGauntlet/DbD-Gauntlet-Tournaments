@@ -1,6 +1,6 @@
 {
 	"Name": "",
-	"Version": 1766813614,
+	"Version": 1766833849,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -2727,16 +2727,20 @@
 		},
 		{
 			"Name": "The Houndmaster",
-			"KillerNotes": "",
+			"KillerNotes": "If map = Wreckers' Yard Killer brings Cut Coin.\n\nIf map = Dead Dawg Saloon or Coal Tower 2 Killer brings Bloodied Blueprint or Torn Blueprint.\n\nSurvivors bring 1x Annotated Blueprint and 1x Vigo's Shroud.",
 			"IsDisabled": false,
 			"Map": [
-				0
+				"42",
+				"8",
+				"33"
 			],
 			"BalanceTiers": [
-				0
+				0,
+				3
 			],
 			"SurvivorBalanceTiers": [
-				0
+				0,
+				3
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
@@ -2749,13 +2753,21 @@
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [],
 			"IndividualAddonBans": [],
-			"ItemWhitelist": [],
+			"ItemWhitelist": [
+				0,
+				5
+			],
 			"AddonWhitelist": {
 				"Firecracker": {
 					"Addons": []
 				},
 				"Flashlight": {
-					"Addons": []
+					"Addons": [
+						1,
+						2,
+						3,
+						4
+					]
 				},
 				"Med-Kit": {
 					"Addons": []
@@ -2773,8 +2785,15 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"SurvivorOfferings": [
+				2,
+				5
+			],
+			"KillerOfferings": [
+				0,
+				1,
+				5
+			]
 		},
 		{
 			"Name": "The Ghoul",
@@ -2850,16 +2869,18 @@
 		},
 		{
 			"Name": "The Animatronic",
-			"KillerNotes": "",
+			"KillerNotes": "If map is Wretched Shop Killer brings Bloodied Blueprint or Torn Blueprint.\n\nIf map is Midwich or Wreckers' Yard Killer brings Cut Coin.\n\nIf map is Wreckers' Yard or Wretched Shop survivors bring 1x Vigo's Shroud and 1x Annotated Bluepint.\n\nIf map is Midwich survivors bring 1x Vigo's Shroud.\n\nSurvivors will not incur penalty if they bring Annotated Blueprint Midwich.\n",
 			"IsDisabled": false,
 			"Map": [
 				0
 			],
 			"BalanceTiers": [
-				0
+				0,
+				2
 			],
 			"SurvivorBalanceTiers": [
-				0
+				0,
+				2
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
@@ -2871,14 +2892,26 @@
 			"KillerWhitelistedPerks": [],
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [],
-			"IndividualAddonBans": [],
-			"ItemWhitelist": [],
+			"IndividualAddonBans": [
+				788,
+				792,
+				798
+			],
+			"ItemWhitelist": [
+				5,
+				0
+			],
 			"AddonWhitelist": {
 				"Firecracker": {
 					"Addons": []
 				},
 				"Flashlight": {
-					"Addons": []
+					"Addons": [
+						1,
+						2,
+						3,
+						4
+					]
 				},
 				"Med-Kit": {
 					"Addons": []
@@ -2896,8 +2929,15 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"SurvivorOfferings": [
+				2,
+				5
+			],
+			"KillerOfferings": [
+				0,
+				1,
+				5
+			]
 		},
 		{
 			"Name": "The Krasue",
