@@ -1,6 +1,6 @@
 {
 	"Name": "",
-	"Version": 1767372188,
+	"Version": 1769281763,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -1138,16 +1138,20 @@
 		},
 		{
 			"Name": "The Clown",
-			"KillerNotes": "",
+			"KillerNotes": "On Wreckers' Yard Killer brings Cut Coin.\n\nOn Grim Pantry or Wretched Shop Killer brings one Bloodied Blueprint or one Torn Blueprint.\n\nOn all maps Survivors bring one Vigo's Shroud and one Annotated Blueprint.",
 			"IsDisabled": false,
 			"Map": [
-				0
+				"8",
+				"9",
+				"19"
 			],
 			"BalanceTiers": [
-				0
+				0,
+				3
 			],
 			"SurvivorBalanceTiers": [
-				0
+				0,
+				3
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
@@ -1159,14 +1163,26 @@
 			"KillerWhitelistedPerks": [],
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [],
-			"IndividualAddonBans": [],
-			"ItemWhitelist": [],
+			"IndividualAddonBans": [
+				235,
+				237,
+				238
+			],
+			"ItemWhitelist": [
+				0,
+				5
+			],
 			"AddonWhitelist": {
 				"Firecracker": {
 					"Addons": []
 				},
 				"Flashlight": {
-					"Addons": []
+					"Addons": [
+						1,
+						2,
+						3,
+						4
+					]
 				},
 				"Med-Kit": {
 					"Addons": []
@@ -1184,8 +1200,15 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"SurvivorOfferings": [
+				2,
+				5
+			],
+			"KillerOfferings": [
+				0,
+				1,
+				5
+			]
 		},
 		{
 			"Name": "The Spirit",
@@ -1889,16 +1912,20 @@
 		},
 		{
 			"Name": "The Trickster",
-			"KillerNotes": "",
+			"KillerNotes": "On Wreckers' Yard Killer brings Cut Coin.\n\nOn Dead Dawg Saloon or Father Campbell's Chapel Killer brings Bloodied Blueprint or Torn Blueprint.\n\nOn all maps Survivors bring one Annotated Blueprint and one Vigo's Shroud.",
 			"IsDisabled": false,
 			"Map": [
-				0
+				"8",
+				"16",
+				"33"
 			],
 			"BalanceTiers": [
-				0
+				0,
+				3
 			],
 			"SurvivorBalanceTiers": [
-				0
+				0,
+				3
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
@@ -1910,14 +1937,26 @@
 			"KillerWhitelistedPerks": [],
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [],
-			"IndividualAddonBans": [],
-			"ItemWhitelist": [],
+			"IndividualAddonBans": [
+				453,
+				456,
+				457
+			],
+			"ItemWhitelist": [
+				0,
+				5
+			],
 			"AddonWhitelist": {
 				"Firecracker": {
 					"Addons": []
 				},
 				"Flashlight": {
-					"Addons": []
+					"Addons": [
+						1,
+						2,
+						3,
+						4
+					]
 				},
 				"Med-Kit": {
 					"Addons": []
@@ -1935,8 +1974,15 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"SurvivorOfferings": [
+				2,
+				5
+			],
+			"KillerOfferings": [
+				0,
+				1,
+				5
+			]
 		},
 		{
 			"Name": "The Nemesis",
