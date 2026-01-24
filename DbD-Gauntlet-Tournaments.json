@@ -1,6 +1,6 @@
 {
 	"Name": "",
-	"Version": 1766835760,
+	"Version": 1767372188,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -616,16 +616,20 @@
 		},
 		{
 			"Name": "The Shape",
-			"KillerNotes": "",
+			"KillerNotes": "If map is Dead Dawg Saloon Killer brings either Bloodied Blueprint or Torn Blueprint.\n\nIf map is The Underground Complex or The Treatment Theatre Killer brings Cut Coin.\n\nIf map is Dead Dawg Saloon Survivors bring one Vigo's Shroud and one Annotated Blueprint.\n\nIf map is The Underground Complex or Treatment Theatre Survivors bring one Vigo's Shroud.\n\nSurvivors will not incur penalty if they bring Annotated Blueprint on Treatment Theatre or The Underground Complex.",
 			"IsDisabled": false,
 			"Map": [
-				0
+				"20",
+				"32",
+				"33"
 			],
 			"BalanceTiers": [
-				0
+				0,
+				5
 			],
 			"SurvivorBalanceTiers": [
-				0
+				0,
+				5
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
@@ -640,15 +644,25 @@
 			"IndividualAddonBans": [
 				86,
 				94,
-				84
+				84,
+				95,
+				98
 			],
-			"ItemWhitelist": [],
+			"ItemWhitelist": [
+				0,
+				5
+			],
 			"AddonWhitelist": {
 				"Firecracker": {
 					"Addons": []
 				},
 				"Flashlight": {
-					"Addons": []
+					"Addons": [
+						1,
+						2,
+						3,
+						4
+					]
 				},
 				"Med-Kit": {
 					"Addons": []
@@ -666,8 +680,15 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"SurvivorOfferings": [
+				2,
+				5
+			],
+			"KillerOfferings": [
+				0,
+				1,
+				5
+			]
 		},
 		{
 			"Name": "The Hag",
@@ -895,16 +916,20 @@
 		},
 		{
 			"Name": "The Cannibal",
-			"KillerNotes": "",
+			"KillerNotes": "If map is Wretched Shop or Dead Dawg Saloon Killer brings Bloodied Blueprint or Torn Blueprint.\n\nIf map is Wrecker's Yard Killer brings Cut Coin.\n\nOn all maps Survivors bring one Vigo's Shroud and one Annotated Blueprint.",
 			"IsDisabled": false,
 			"Map": [
-				0
+				"8",
+				"9",
+				"33"
 			],
 			"BalanceTiers": [
-				0
+				0,
+				4
 			],
 			"SurvivorBalanceTiers": [
-				0
+				0,
+				4
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
@@ -916,14 +941,26 @@
 			"KillerWhitelistedPerks": [],
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [],
-			"IndividualAddonBans": [],
-			"ItemWhitelist": [],
+			"IndividualAddonBans": [
+				164,
+				174,
+				178
+			],
+			"ItemWhitelist": [
+				0,
+				5
+			],
 			"AddonWhitelist": {
 				"Firecracker": {
 					"Addons": []
 				},
 				"Flashlight": {
-					"Addons": []
+					"Addons": [
+						1,
+						2,
+						3,
+						4
+					]
 				},
 				"Med-Kit": {
 					"Addons": []
@@ -941,8 +978,15 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"SurvivorOfferings": [
+				2,
+				5
+			],
+			"KillerOfferings": [
+				0,
+				1,
+				5
+			]
 		},
 		{
 			"Name": "The Nightmare",
@@ -1970,35 +2014,53 @@
 		},
 		{
 			"Name": "The Cenobite",
-			"KillerNotes": "",
+			"KillerNotes": "If the map is Coal Tower 1 or Dead Dawg Saloon Killer brings either Bloodied Blueprint or Torn Blueprint.\n\nIf map is Wreckers' Yard Killer brings Cut Coin.\n\nOn all maps Survivors bring one Vigo's Shroud and One Annotated Blueprint",
 			"IsDisabled": false,
 			"Map": [
-				0
+				"0",
+				"8",
+				"33"
 			],
 			"BalanceTiers": [
-				0
+				0,
+				2
 			],
 			"SurvivorBalanceTiers": [
-				0
+				0,
+				2
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
 			"KillerComboPerkBans": [],
-			"SurvivorIndvPerkBans": [],
+			"SurvivorIndvPerkBans": [
+				"26",
+				"101"
+			],
 			"SurvivorComboPerkBans": [],
 			"SurvivorWhitelistedPerks": [],
 			"SurvivorWhitelistedComboPerks": [],
 			"KillerWhitelistedPerks": [],
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [],
-			"IndividualAddonBans": [],
-			"ItemWhitelist": [],
+			"IndividualAddonBans": [
+				497,
+				498
+			],
+			"ItemWhitelist": [
+				0,
+				5
+			],
 			"AddonWhitelist": {
 				"Firecracker": {
 					"Addons": []
 				},
 				"Flashlight": {
-					"Addons": []
+					"Addons": [
+						1,
+						2,
+						3,
+						4
+					]
 				},
 				"Med-Kit": {
 					"Addons": []
@@ -2016,8 +2078,15 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"SurvivorOfferings": [
+				2,
+				5
+			],
+			"KillerOfferings": [
+				0,
+				1,
+				5
+			]
 		},
 		{
 			"Name": "The Artist",
