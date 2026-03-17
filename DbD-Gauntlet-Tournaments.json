@@ -1,6 +1,6 @@
 {
 	"Name": "",
-	"Version": 1770720382,
+	"Version": 1773720645,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -14,6 +14,7 @@
 				"6",
 				"52",
 				"7",
+				"300",
 				"258",
 				"13",
 				"14",
@@ -29,6 +30,7 @@
 				"25",
 				"60",
 				"246",
+				"301",
 				"28",
 				"273",
 				"286",
@@ -37,6 +39,7 @@
 				"279",
 				"43",
 				"280",
+				"303",
 				"268",
 				"267",
 				"46",
@@ -52,6 +55,7 @@
 				"62",
 				"66",
 				"259",
+				"269",
 				"73",
 				"74",
 				"80",
@@ -73,8 +77,11 @@
 				"263",
 				"260",
 				"253",
+				"302",
+				"305",
 				"290",
 				"287",
+				"304",
 				"128",
 				"254"
 			],
@@ -88,6 +95,7 @@
 				"255",
 				"149",
 				"152",
+				"153",
 				"155",
 				"266",
 				"163",
@@ -100,9 +108,11 @@
 				"171",
 				"172",
 				"175",
+				"299",
 				"183",
 				"264",
 				"186",
+				"265",
 				"256",
 				"195",
 				"196",
@@ -115,9 +125,11 @@
 				"213",
 				"292",
 				"216",
+				"298",
 				"222",
 				"227",
 				"235",
+				"297",
 				"238",
 				"249",
 				"250",
@@ -168,6 +180,7 @@
 				"174",
 				"178",
 				"180",
+				"189",
 				"204",
 				"219",
 				"220"
@@ -260,6 +273,7 @@
 				"70",
 				"76",
 				"77",
+				"80",
 				"95",
 				"92",
 				"102",
@@ -326,7 +340,7 @@
 		{
 			"Name": "The Trapper",
 			"KillerNotes": "",
-			"IsDisabled": false,
+			"IsDisabled": true,
 			"Map": [
 				0
 			],
@@ -347,13 +361,25 @@
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [],
 			"IndividualAddonBans": [],
-			"ItemWhitelist": [],
+			"ItemWhitelist": [
+				5
+			],
 			"AddonWhitelist": {
 				"Firecracker": {
 					"Addons": []
 				},
 				"Flashlight": {
-					"Addons": []
+					"Addons": [
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
 				},
 				"Med-Kit": {
 					"Addons": []
@@ -371,8 +397,15 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"SurvivorOfferings": [
+				2,
+				5
+			],
+			"KillerOfferings": [
+				0,
+				1,
+				5
+			]
 		},
 		{
 			"Name": "The Wraith",
@@ -381,7 +414,7 @@
 			"Map": [
 				"0",
 				"33",
-				"54"
+				"34"
 			],
 			"BalanceTiers": [
 				0,
@@ -406,8 +439,8 @@
 				39
 			],
 			"ItemWhitelist": [
-				0,
-				5
+				5,
+				0
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -418,7 +451,12 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
 					]
 				},
 				"Med-Kit": {
@@ -481,8 +519,8 @@
 			],
 			"ItemWhitelist": [
 				5,
-				8,
-				0
+				0,
+				8
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -493,11 +531,17 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
 					]
 				},
 				"Med-Kit": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -547,7 +591,8 @@
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [
-				"132"
+				"132",
+				"225"
 			],
 			"KillerComboPerkBans": [],
 			"SurvivorIndvPerkBans": [],
@@ -578,7 +623,12 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
 					]
 				},
 				"Med-Kit": {
@@ -617,7 +667,7 @@
 		},
 		{
 			"Name": "The Shape",
-			"KillerNotes": "If map is Dead Dawg Saloon Killer brings either Bloodied Blueprint or Torn Blueprint.\n\nIf map is The Underground Complex or The Treatment Theatre Killer brings Cut Coin.\n\nIf map is Dead Dawg Saloon Survivors bring one Vigo's Shroud and one Annotated Blueprint.\n\nIf map is The Underground Complex or Treatment Theatre Survivors bring one Vigo's Shroud.\n\nSurvivors will not incur penalty if they bring Annotated Blueprint on Treatment Theatre or The Underground Complex.",
+			"KillerNotes": "On Dead Dawg Saloon Killer brings either Bloodied Blueprint or Torn Blueprint.\n\nOn The Underground Complex or The Treatment Theatre Killer brings Cut Coin.\n\nOn Dead Dawg Saloon Survivors bring one Vigo's Shroud and one Annotated Blueprint.\n\nOn The Underground Complex or Treatment Theatre Survivors bring one Vigo's Shroud.\n\nSurvivors will not incur penalty if they bring Annotated Blueprint on Treatment Theatre or The Underground Complex.",
 			"IsDisabled": false,
 			"Map": [
 				"20",
@@ -662,7 +712,12 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
 					]
 				},
 				"Med-Kit": {
@@ -744,7 +799,12 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
 					]
 				},
 				"Med-Kit": {
@@ -778,7 +838,9 @@
 			"KillerNotes": "Killer brings Bloodied or Torn Blueprint.\n\nSurvivors bring one Annotated Blueprint and one Vigo's Shroud.",
 			"IsDisabled": false,
 			"Map": [
-				0
+				"42",
+				"9",
+				"16"
 			],
 			"BalanceTiers": [
 				0,
@@ -862,7 +924,10 @@
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
 			"KillerComboPerkBans": [],
-			"SurvivorIndvPerkBans": [],
+			"SurvivorIndvPerkBans": [
+				"54",
+				"116"
+			],
 			"SurvivorComboPerkBans": [],
 			"SurvivorWhitelistedPerks": [],
 			"SurvivorWhitelistedComboPerks": [],
@@ -886,7 +951,12 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
 					]
 				},
 				"Med-Kit": {
@@ -948,8 +1018,8 @@
 				178
 			],
 			"ItemWhitelist": [
-				0,
-				5
+				5,
+				0
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -1009,7 +1079,9 @@
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
 			"KillerComboPerkBans": [],
-			"SurvivorIndvPerkBans": [],
+			"SurvivorIndvPerkBans": [
+				"124"
+			],
 			"SurvivorComboPerkBans": [],
 			"SurvivorWhitelistedPerks": [],
 			"SurvivorWhitelistedComboPerks": [],
@@ -1034,7 +1106,12 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
 					]
 				},
 				"Med-Kit": {
@@ -1184,7 +1261,12 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
 					]
 				},
 				"Med-Kit": {
@@ -1260,16 +1342,26 @@
 				258
 			],
 			"ItemWhitelist": [
+				8,
 				0,
-				5,
-				8
+				5
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
 					"Addons": []
 				},
 				"Flashlight": {
-					"Addons": []
+					"Addons": [
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
 				},
 				"Med-Kit": {
 					"Addons": [
@@ -1380,7 +1472,7 @@
 		},
 		{
 			"Name": "The Plague",
-			"KillerNotes": "Killer brings Cut Coin.\n\non Wrecker's Yard Survivors bring one Vigo's Shroud and one Annotated Blueprint.\n\nOn Azarov's Resting Place or Suffocation Pit 1 Survivors bring one Vigo's Shroud, one Annotated Blueprint AND one Bloodied Blueprint.",
+			"KillerNotes": "Killer brings Cut Coin.\n\nOn Wrecker's Yard Survivors bring one Vigo's Shroud and one Annotated Blueprint.\n\nOn Azarov's Resting Place or Suffocation Pit 1 Survivors bring one Vigo's Shroud, one Annotated Blueprint AND one Bloodied Blueprint.",
 			"IsDisabled": false,
 			"Map": [
 				"4",
@@ -1423,7 +1515,12 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
 					]
 				},
 				"Med-Kit": {
@@ -1482,8 +1579,8 @@
 				318
 			],
 			"ItemWhitelist": [
-				0,
-				5
+				5,
+				0
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -1567,7 +1664,12 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
 					]
 				},
 				"Med-Kit": {
@@ -1602,7 +1704,7 @@
 			"KillerNotes": "On all Maps Killer brings Bloodied Blueprint or Torn Blueprint.\n\nOn all Maps Survivors bring one Annotated Blueprint and one Vigo's Shroud.",
 			"IsDisabled": false,
 			"Map": [
-				"42",
+				"0",
 				"16",
 				"33"
 			],
@@ -1629,8 +1731,8 @@
 				358
 			],
 			"ItemWhitelist": [
-				0,
-				5
+				5,
+				0
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -1641,7 +1743,12 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
 					]
 				},
 				"Med-Kit": {
@@ -1703,8 +1810,8 @@
 				377
 			],
 			"ItemWhitelist": [
-				0,
-				5
+				5,
+				0
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -1745,16 +1852,20 @@
 		},
 		{
 			"Name": "The Executioner",
-			"KillerNotes": "",
+			"KillerNotes": "On Wrecker's Yard, the killer brings Cut Coin.\n\nOn Coal Tower 2 and Rancid Abattoir, the killer brings Bloodied Blueprint OR Torn Blueprint.\n\nOn all maps survivors bring Vigo's Shroud AND Annotated Blueprint.",
 			"IsDisabled": false,
 			"Map": [
-				0
+				"42",
+				"8",
+				"11"
 			],
 			"BalanceTiers": [
-				0
+				0,
+				2
 			],
 			"SurvivorBalanceTiers": [
-				0
+				0,
+				2
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
@@ -1767,13 +1878,26 @@
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [],
 			"IndividualAddonBans": [],
-			"ItemWhitelist": [],
+			"ItemWhitelist": [
+				0,
+				5
+			],
 			"AddonWhitelist": {
 				"Firecracker": {
 					"Addons": []
 				},
 				"Flashlight": {
-					"Addons": []
+					"Addons": [
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
 				},
 				"Med-Kit": {
 					"Addons": []
@@ -1791,8 +1915,15 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"SurvivorOfferings": [
+				2,
+				5
+			],
+			"KillerOfferings": [
+				0,
+				1,
+				5
+			]
 		},
 		{
 			"Name": "The Blight",
@@ -1814,7 +1945,8 @@
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [
 				"132",
-				"142"
+				"142",
+				"225"
 			],
 			"KillerComboPerkBans": [],
 			"SurvivorIndvPerkBans": [],
@@ -1832,9 +1964,9 @@
 				418
 			],
 			"ItemWhitelist": [
+				8,
 				0,
-				5,
-				8
+				5
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -1845,7 +1977,12 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
 					]
 				},
 				"Med-Kit": {
@@ -1914,8 +2051,8 @@
 				438
 			],
 			"ItemWhitelist": [
-				0,
-				5
+				5,
+				0
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -1926,7 +2063,12 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
 					]
 				},
 				"Med-Kit": {
@@ -1999,7 +2141,12 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
 					]
 				},
 				"Med-Kit": {
@@ -2073,7 +2220,12 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
 					]
 				},
 				"Med-Kit": {
@@ -2104,7 +2256,7 @@
 		},
 		{
 			"Name": "The Cenobite",
-			"KillerNotes": "If the map is Coal Tower 1 or Dead Dawg Saloon Killer brings either Bloodied Blueprint or Torn Blueprint.\n\nIf map is Wreckers' Yard Killer brings Cut Coin.\n\nOn all maps Survivors bring one Vigo's Shroud and One Annotated Blueprint",
+			"KillerNotes": "On Coal Tower 1 or Dead Dawg Saloon Killer brings either Bloodied Blueprint or Torn Blueprint.\n\nOn Wreckers' Yard Killer brings Cut Coin.\n\nOn all maps Survivors bring one Vigo's Shroud and One Annotated Blueprint.",
 			"IsDisabled": false,
 			"Map": [
 				"0",
@@ -2149,7 +2301,12 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
 					]
 				},
 				"Med-Kit": {
@@ -2212,8 +2369,8 @@
 				518
 			],
 			"ItemWhitelist": [
-				5,
-				0
+				0,
+				5
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -2224,7 +2381,12 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
 					]
 				},
 				"Med-Kit": {
@@ -2300,7 +2462,12 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
 					]
 				},
 				"Med-Kit": {
@@ -2361,6 +2528,7 @@
 				558
 			],
 			"ItemWhitelist": [
+				0,
 				5
 			],
 			"AddonWhitelist": {
@@ -2372,7 +2540,12 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
 					]
 				},
 				"Med-Kit": {
@@ -2445,7 +2618,12 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
 					]
 				},
 				"Med-Kit": {
@@ -2518,7 +2696,12 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
 					]
 				},
 				"Med-Kit": {
@@ -2549,16 +2732,20 @@
 		},
 		{
 			"Name": "The Skull Merchant",
-			"KillerNotes": "",
+			"KillerNotes": "On Wrecker's Yard, killer brings Cut Coin.\n\nOn Coal Tower 1 or Wretched Shop, killer bring Bloodied Blueprint OR Torn Blueprint.\n\nOn all maps, survivors bring Vigo's Shroud AND Annotated Blueprint.",
 			"IsDisabled": false,
 			"Map": [
-				0
+				"0",
+				"8",
+				"9"
 			],
 			"BalanceTiers": [
-				0
+				0,
+				3
 			],
 			"SurvivorBalanceTiers": [
-				0
+				0,
+				3
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
@@ -2570,14 +2757,31 @@
 			"KillerWhitelistedPerks": [],
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [],
-			"IndividualAddonBans": [],
-			"ItemWhitelist": [],
+			"IndividualAddonBans": [
+				611,
+				617,
+				618
+			],
+			"ItemWhitelist": [
+				0,
+				5
+			],
 			"AddonWhitelist": {
 				"Firecracker": {
 					"Addons": []
 				},
 				"Flashlight": {
-					"Addons": []
+					"Addons": [
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
 				},
 				"Med-Kit": {
 					"Addons": []
@@ -2595,8 +2799,15 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"SurvivorOfferings": [
+				2,
+				5
+			],
+			"KillerOfferings": [
+				0,
+				1,
+				5
+			]
 		},
 		{
 			"Name": "The Singularity",
@@ -2633,8 +2844,8 @@
 				637
 			],
 			"ItemWhitelist": [
-				5,
-				0
+				0,
+				5
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -2645,7 +2856,12 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
 					]
 				},
 				"Med-Kit": {
@@ -2721,7 +2937,12 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
 					]
 				},
 				"Med-Kit": {
@@ -2751,35 +2972,60 @@
 		},
 		{
 			"Name": "The Good Guy",
-			"KillerNotes": "",
+			"KillerNotes": "On Wrecker's Yard, killer brings Cut Coin.\n\nOn Coal Tower 1 or Azarov's Resting Place, killer brings Bloodied Blueprint OR Torn Blueprint.\n\nOn Wrecker's Yard or Coal Tower 1, survivors bring one Vigo's Shroud and one Annotated Blueprint.\n\nOn Azarov's Resting Place, survivors bring one Vigo's Shroud, one Annotated Blueprint, and one Bloodied Blueprint.",
 			"IsDisabled": false,
 			"Map": [
-				0
+				"0",
+				"5",
+				"8"
 			],
 			"BalanceTiers": [
-				0
+				0,
+				3
 			],
 			"SurvivorBalanceTiers": [
-				0
+				0,
+				3
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
 			"KillerComboPerkBans": [],
-			"SurvivorIndvPerkBans": [],
+			"SurvivorIndvPerkBans": [
+				"116"
+			],
 			"SurvivorComboPerkBans": [],
 			"SurvivorWhitelistedPerks": [],
 			"SurvivorWhitelistedComboPerks": [],
 			"KillerWhitelistedPerks": [],
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [],
-			"IndividualAddonBans": [],
-			"ItemWhitelist": [],
+			"IndividualAddonBans": [
+				678,
+				677,
+				674,
+				668,
+				671
+			],
+			"ItemWhitelist": [
+				0,
+				5
+			],
 			"AddonWhitelist": {
 				"Firecracker": {
 					"Addons": []
 				},
 				"Flashlight": {
-					"Addons": []
+					"Addons": [
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
 				},
 				"Med-Kit": {
 					"Addons": []
@@ -2797,8 +3043,16 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"SurvivorOfferings": [
+				0,
+				2,
+				5
+			],
+			"KillerOfferings": [
+				0,
+				1,
+				5
+			]
 		},
 		{
 			"Name": "The Unknown",
@@ -2846,7 +3100,12 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
 					]
 				},
 				"Med-Kit": {
@@ -2877,16 +3136,20 @@
 		},
 		{
 			"Name": "The Lich",
-			"KillerNotes": "",
+			"KillerNotes": "On Wrecker's Yard, killer brings Cut Coin.\n\nOn Coal Tower 2 or Dead Dawg Saloon, killer brings Bloodied Blueprint OR Torn Blueprint.\n\nOn all maps, survivors bring one Vigo's Shroud AND one Annotated Blueprint.\n\nSurvivors are allowed to loot Vecna's Treasure Chests, however the Hand and Eye of Vecna items (the items received for rolling a 20) are not to be pulled from a chest should they be rolled. Similarly, normal items cannot be used, but they are allowed to be pulled out of the chest to be immediately dropped so as to allow the chest to be reused. Survivors are permitted to use the rest of Vecna's Magic Items. ",
 			"IsDisabled": false,
 			"Map": [
-				0
+				"42",
+				"8",
+				"33"
 			],
 			"BalanceTiers": [
-				0
+				0,
+				4
 			],
 			"SurvivorBalanceTiers": [
-				0
+				0,
+				4
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
@@ -2898,14 +3161,31 @@
 			"KillerWhitelistedPerks": [],
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [],
-			"IndividualAddonBans": [],
-			"ItemWhitelist": [],
+			"IndividualAddonBans": [
+				716,
+				717,
+				718
+			],
+			"ItemWhitelist": [
+				0,
+				5
+			],
 			"AddonWhitelist": {
 				"Firecracker": {
 					"Addons": []
 				},
 				"Flashlight": {
-					"Addons": []
+					"Addons": [
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
 				},
 				"Med-Kit": {
 					"Addons": []
@@ -2923,8 +3203,15 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"SurvivorOfferings": [
+				2,
+				5
+			],
+			"KillerOfferings": [
+				0,
+				1,
+				5
+			]
 		},
 		{
 			"Name": "The Dark Lord",
@@ -2972,7 +3259,12 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
 					]
 				},
 				"Med-Kit": {
@@ -3003,7 +3295,7 @@
 		},
 		{
 			"Name": "The Houndmaster",
-			"KillerNotes": "If map = Wreckers' Yard Killer brings Cut Coin.\n\nIf map = Dead Dawg Saloon or Coal Tower 2 Killer brings Bloodied Blueprint or Torn Blueprint.\n\nSurvivors bring 1x Annotated Blueprint and 1x Vigo's Shroud.",
+			"KillerNotes": "On Wreckers' Yard Killer brings Cut Coin.\n\nOn Dead Dawg Saloon or Coal Tower 2 Killer brings Bloodied Blueprint or Torn Blueprint.\n\nOn all maps survivors bring one Annotated Blueprint and one Vigo's Shroud.",
 			"IsDisabled": false,
 			"Map": [
 				"42",
@@ -3042,7 +3334,12 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
 					]
 				},
 				"Med-Kit": {
@@ -3104,6 +3401,7 @@
 				778
 			],
 			"ItemWhitelist": [
+				0,
 				5
 			],
 			"AddonWhitelist": {
@@ -3115,7 +3413,12 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
 					]
 				},
 				"Med-Kit": {
@@ -3145,10 +3448,12 @@
 		},
 		{
 			"Name": "The Animatronic",
-			"KillerNotes": "If map is Wretched Shop Killer brings Bloodied Blueprint or Torn Blueprint.\n\nIf map is Midwich or Wreckers' Yard Killer brings Cut Coin.\n\nIf map is Wreckers' Yard or Wretched Shop survivors bring 1x Vigo's Shroud and 1x Annotated Bluepint.\n\nIf map is Midwich survivors bring 1x Vigo's Shroud.\n\nSurvivors will not incur penalty if they bring Annotated Blueprint Midwich.\n",
+			"KillerNotes": "On Wretched Shop Killer brings Bloodied Blueprint or Torn Blueprint.\n\nOn Midwich or Wreckers' Yard Killer brings Cut Coin.\n\nOn Wreckers' Yard or Wretched Shop survivors bring one Vigo's Shroud and one Annotated Blueprint.\n\nOn Midwich survivors bring one Vigo's Shroud.\n\nSurvivors will not incur penalty if they bring Annotated Blueprint on Midwich.\n",
 			"IsDisabled": false,
 			"Map": [
-				0
+				"8",
+				"9",
+				"34"
 			],
 			"BalanceTiers": [
 				0,
@@ -3174,8 +3479,8 @@
 				798
 			],
 			"ItemWhitelist": [
-				5,
-				0
+				0,
+				5
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -3186,7 +3491,12 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
 					]
 				},
 				"Med-Kit": {
@@ -3218,7 +3528,7 @@
 		{
 			"Name": "The Krasue",
 			"KillerNotes": "",
-			"IsDisabled": false,
+			"IsDisabled": true,
 			"Map": [
 				0
 			],
@@ -3239,13 +3549,26 @@
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [],
 			"IndividualAddonBans": [],
-			"ItemWhitelist": [],
+			"ItemWhitelist": [
+				0,
+				5
+			],
 			"AddonWhitelist": {
 				"Firecracker": {
 					"Addons": []
 				},
 				"Flashlight": {
-					"Addons": []
+					"Addons": [
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
 				},
 				"Med-Kit": {
 					"Addons": []
@@ -3263,13 +3586,20 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"SurvivorOfferings": [
+				2,
+				5
+			],
+			"KillerOfferings": [
+				0,
+				1,
+				5
+			]
 		},
 		{
 			"Name": "The First",
 			"KillerNotes": "",
-			"IsDisabled": false,
+			"IsDisabled": true,
 			"Map": [
 				0
 			],
@@ -3290,13 +3620,26 @@
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [],
 			"IndividualAddonBans": [],
-			"ItemWhitelist": [],
+			"ItemWhitelist": [
+				0,
+				5
+			],
 			"AddonWhitelist": {
 				"Firecracker": {
 					"Addons": []
 				},
 				"Flashlight": {
-					"Addons": []
+					"Addons": [
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
 				},
 				"Med-Kit": {
 					"Addons": []
@@ -3314,8 +3657,15 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"SurvivorOfferings": [
+				2,
+				5
+			],
+			"KillerOfferings": [
+				0,
+				1,
+				5
+			]
 		}
 	]
 }
