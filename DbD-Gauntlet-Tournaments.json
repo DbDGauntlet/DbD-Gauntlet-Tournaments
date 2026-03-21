@@ -1,12 +1,13 @@
 {
 	"Name": "",
-	"Version": 1773720645,
+	"Version": 1774057410,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
 		{
 			"Name": "General",
 			"SurvivorIndvPerkBans": [
+				"306",
 				"0",
 				"3",
 				"285",
@@ -44,6 +45,8 @@
 				"267",
 				"46",
 				"261",
+				"307",
+				"308",
 				"49",
 				"294",
 				"55",
@@ -2156,7 +2159,8 @@
 			"IndividualAddonBans": [
 				453,
 				456,
-				457
+				457,
+				449
 			],
 			"ItemWhitelist": [
 				0,
