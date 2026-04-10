@@ -1,6 +1,6 @@
 {
 	"Name": "",
-	"Version": 1774057410,
+	"Version": 1775782627,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -25,6 +25,7 @@
 				"247",
 				"19",
 				"20",
+				"73",
 				"22",
 				"23",
 				"24",
@@ -59,7 +60,6 @@
 				"66",
 				"259",
 				"269",
-				"73",
 				"74",
 				"80",
 				"81",
@@ -123,12 +123,12 @@
 				"271",
 				"205",
 				"284",
-				"209",
 				"211",
 				"213",
 				"292",
 				"216",
 				"298",
+				"209",
 				"222",
 				"227",
 				"235",
@@ -3632,16 +3632,20 @@
 		},
 		{
 			"Name": "The First",
-			"KillerNotes": "",
-			"IsDisabled": true,
+			"KillerNotes": "On all Maps Killer brings either Bloodied Blueprint or Torn Blueprint.\n\nOn all Maps Survivors bring one Annotated Blueprint and one Vigo's Shroud.",
+			"IsDisabled": false,
 			"Map": [
-				0
+				"43",
+				"9",
+				"16"
 			],
 			"BalanceTiers": [
-				0
+				0,
+				2
 			],
 			"SurvivorBalanceTiers": [
-				0
+				0,
+				2
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
@@ -3653,10 +3657,18 @@
 			"KillerWhitelistedPerks": [],
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [],
-			"IndividualAddonBans": [],
+			"IndividualAddonBans": [
+				824,
+				825,
+				832,
+				829,
+				834,
+				836,
+				837
+			],
 			"ItemWhitelist": [
-				0,
-				5
+				5,
+				0
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -3697,8 +3709,7 @@
 			],
 			"KillerOfferings": [
 				0,
-				1,
-				5
+				1
 			]
 		}
 	]
