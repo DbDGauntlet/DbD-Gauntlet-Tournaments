@@ -1,6 +1,6 @@
 {
 	"Name": "",
-	"Version": 1782178521,
+	"Version": 1782710744,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -1520,7 +1520,9 @@
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
 			"KillerComboPerkBans": [],
-			"SurvivorIndvPerkBans": [],
+			"SurvivorIndvPerkBans": [
+				"53"
+			],
 			"SurvivorComboPerkBans": [],
 			"SurvivorWhitelistedPerks": [],
 			"SurvivorWhitelistedComboPerks": [],
@@ -3288,7 +3290,8 @@
 				733,
 				735,
 				737,
-				738
+				738,
+				736
 			],
 			"ItemWhitelist": [
 				0,
