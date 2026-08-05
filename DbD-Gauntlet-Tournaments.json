@@ -1,6 +1,6 @@
 {
 	"Name": "",
-	"Version": 1782710899,
+	"Version": 1785891491,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -2857,11 +2857,11 @@
 		},
 		{
 			"Name": "The Singularity",
-			"KillerNotes": "On Wrecker's Yard Killer brings Cut Coin.\n\nOn Coal Tower 2 and Dead Dawg Saloon Killer brings Bloodied or Torn Blueprint.\n\nOn all maps survivors bring one Annotated Blueprint and one Vigo's Shroud.",
+			"KillerNotes": "Killer brings Bloodied or Torn Blueprint.\n\nSurvivors bring one Annotated Blueprint and one Vigo's Shroud.",
 			"IsDisabled": false,
 			"Map": [
 				"42",
-				"8",
+				"43",
 				"33"
 			],
 			"BalanceTiers": [
