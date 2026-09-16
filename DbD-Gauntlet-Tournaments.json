@@ -1,6 +1,6 @@
 {
 	"Name": "",
-	"Version": 1786500553,
+	"Version": 1789523081,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -24,6 +24,7 @@
 				"18",
 				"247",
 				"19",
+				"318",
 				"20",
 				"73",
 				"22",
@@ -50,6 +51,7 @@
 				"307",
 				"308",
 				"49",
+				"319",
 				"294",
 				"55",
 				"56",
@@ -75,6 +77,7 @@
 				"296",
 				"97",
 				"98",
+				"320",
 				"99",
 				"102",
 				"275",
@@ -97,6 +100,7 @@
 				"134",
 				"136",
 				"245",
+				"315",
 				"147",
 				"255",
 				"149",
@@ -119,10 +123,12 @@
 				"180",
 				"310",
 				"183",
+				"316",
 				"264",
 				"186",
 				"265",
 				"256",
+				"317",
 				"195",
 				"196",
 				"151",
@@ -350,29 +356,36 @@
 	"KillerOverride": [
 		{
 			"Name": "The Trapper",
-			"KillerNotes": "",
-			"IsDisabled": true,
+			"KillerNotes": "CT 1/DDS Offerings: Bloodied or Torn Blueprint for killer and Vigo's Shroud and Annotated Blueprint for Survivors\nMidwich Elementary School Offerings: Cut Coin for killer and Vigo's Shroud for Survivors.",
+			"IsDisabled": false,
 			"Map": [
 				0
 			],
 			"BalanceTiers": [
-				0
+				0,
+				5
 			],
 			"SurvivorBalanceTiers": [
-				0
+				0,
+				5
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
 			"KillerComboPerkBans": [],
-			"SurvivorIndvPerkBans": [],
+			"SurvivorIndvPerkBans": [
+				"53"
+			],
 			"SurvivorComboPerkBans": [],
 			"SurvivorWhitelistedPerks": [],
 			"SurvivorWhitelistedComboPerks": [],
 			"KillerWhitelistedPerks": [],
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [],
-			"IndividualAddonBans": [],
+			"IndividualAddonBans": [
+				18
+			],
 			"ItemWhitelist": [
+				0,
 				5
 			],
 			"AddonWhitelist": {
@@ -3577,15 +3590,19 @@
 		{
 			"Name": "The Krasue",
 			"KillerNotes": "",
-			"IsDisabled": true,
+			"IsDisabled": false,
 			"Map": [
-				0
+				"42",
+				"7",
+				"9"
 			],
 			"BalanceTiers": [
-				0
+				0,
+				3
 			],
 			"SurvivorBalanceTiers": [
-				0
+				0,
+				3
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
@@ -3597,10 +3614,17 @@
 			"KillerWhitelistedPerks": [],
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [],
-			"IndividualAddonBans": [],
+			"IndividualAddonBans": [
+				803,
+				811,
+				814,
+				817,
+				818,
+				812
+			],
 			"ItemWhitelist": [
-				0,
-				5
+				5,
+				0
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -3641,8 +3665,7 @@
 			],
 			"KillerOfferings": [
 				0,
-				1,
-				5
+				1
 			]
 		},
 		{
@@ -3733,6 +3756,88 @@
 			"Name": "The Slasher",
 			"KillerNotes": "",
 			"IsDisabled": false,
+			"Map": [
+				"42",
+				"7",
+				"9"
+			],
+			"BalanceTiers": [
+				0,
+				2
+			],
+			"SurvivorBalanceTiers": [
+				0,
+				2
+			],
+			"AntiFacecampPermitted": false,
+			"KillerIndvPerkBans": [],
+			"KillerComboPerkBans": [],
+			"SurvivorIndvPerkBans": [],
+			"SurvivorComboPerkBans": [],
+			"SurvivorWhitelistedPerks": [],
+			"SurvivorWhitelistedComboPerks": [],
+			"KillerWhitelistedPerks": [],
+			"KillerWhitelistedComboPerks": [],
+			"AddonTiersBanned": [],
+			"IndividualAddonBans": [
+				845,
+				846,
+				852,
+				853,
+				854,
+				855,
+				858
+			],
+			"ItemWhitelist": [
+				0,
+				5
+			],
+			"AddonWhitelist": {
+				"Firecracker": {
+					"Addons": []
+				},
+				"Flashlight": {
+					"Addons": [
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				},
+				"Med-Kit": {
+					"Addons": []
+				},
+				"Toolbox": {
+					"Addons": []
+				},
+				"Key": {
+					"Addons": []
+				},
+				"Map": {
+					"Addons": []
+				},
+				"Fog Vial": {
+					"Addons": []
+				}
+			},
+			"SurvivorOfferings": [
+				2,
+				5
+			],
+			"KillerOfferings": [
+				0,
+				1
+			]
+		},
+		{
+			"Name": "The Judgment",
+			"KillerNotes": "",
+			"IsDisabled": true,
 			"Map": [
 				0
 			],
