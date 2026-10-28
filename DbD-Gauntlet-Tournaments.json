@@ -1,6 +1,6 @@
 {
 	"Name": "Gauntlet",
-	"Version": 1792976348,
+	"Version": 1793160952,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -733,11 +733,11 @@
 			],
 			"BalanceTiers": [
 				0,
-				5
+				4
 			],
 			"SurvivorBalanceTiers": [
 				0,
-				5
+				4
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
@@ -814,11 +814,11 @@
 			],
 			"BalanceTiers": [
 				0,
-				4
+				5
 			],
 			"SurvivorBalanceTiers": [
 				0,
-				4
+				5
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [
@@ -1139,11 +1139,11 @@
 			],
 			"BalanceTiers": [
 				0,
-				3
+				2
 			],
 			"SurvivorBalanceTiers": [
 				0,
-				3
+				2
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
@@ -1160,7 +1160,8 @@
 			"IndividualAddonBans": [
 				195,
 				197,
-				198
+				198,
+				193
 			],
 			"ItemWhitelist": [
 				0,
@@ -1219,11 +1220,11 @@
 			],
 			"BalanceTiers": [
 				0,
-				5
+				4
 			],
 			"SurvivorBalanceTiers": [
 				0,
-				5
+				4
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
@@ -1239,8 +1240,7 @@
 				213,
 				216,
 				217,
-				218,
-				215
+				218
 			],
 			"ItemWhitelist": [
 				0,
@@ -1552,7 +1552,7 @@
 		},
 		{
 			"Name": "The Plague",
-			"KillerNotes": "Killer brings Cut Coin.\n\nOn Wrecker's Yard Survivors bring one Vigo's Shroud and one Annotated Blueprint.\n\nOn Azarov's Resting Place or Suffocation Pit 1 Survivors bring one Vigo's Shroud, one Annotated Blueprint AND one Bloodied Blueprint.",
+			"KillerNotes": "The combination of the Prayer Tablet Fragment and Haematite Seal add-ons is COMBO BANNED.\n\nKiller brings Cut Coin.\n\nOn Wrecker's Yard Survivors bring one Vigo's Shroud and one Annotated Blueprint.\n\nOn Azarov's Resting Place or Suffocation Pit 1 Survivors bring one Vigo's Shroud, one Annotated Blueprint AND one Bloodied Blueprint.",
 			"IsDisabled": false,
 			"Map": [
 				"4",
@@ -1580,7 +1580,6 @@
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [],
 			"IndividualAddonBans": [
-				279,
 				297,
 				298
 			],
@@ -1874,11 +1873,11 @@
 			],
 			"BalanceTiers": [
 				0,
-				2
+				3
 			],
 			"SurvivorBalanceTiers": [
 				0,
-				2
+				3
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
@@ -1953,11 +1952,11 @@
 			],
 			"BalanceTiers": [
 				0,
-				2
+				3
 			],
 			"SurvivorBalanceTiers": [
 				0,
-				2
+				3
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
@@ -2279,11 +2278,11 @@
 			],
 			"BalanceTiers": [
 				0,
-				3
+				4
 			],
 			"SurvivorBalanceTiers": [
 				0,
-				3
+				4
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
@@ -3241,11 +3240,11 @@
 			],
 			"BalanceTiers": [
 				0,
-				4
+				3
 			],
 			"SurvivorBalanceTiers": [
 				0,
-				4
+				3
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
@@ -3554,11 +3553,11 @@
 			],
 			"BalanceTiers": [
 				0,
-				2
+				3
 			],
 			"SurvivorBalanceTiers": [
 				0,
-				2
+				3
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
@@ -3573,7 +3572,8 @@
 			"IndividualAddonBans": [
 				788,
 				792,
-				798
+				798,
+				794
 			],
 			"ItemWhitelist": [
 				0,
