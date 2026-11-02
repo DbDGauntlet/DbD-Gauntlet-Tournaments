@@ -1,6 +1,6 @@
 {
 	"Name": "Gauntlet",
-	"Version": 1793160952,
+	"Version": 1793590185,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -3655,7 +3655,8 @@
 				814,
 				817,
 				818,
-				812
+				812,
+				806
 			],
 			"ItemWhitelist": [
 				5,
