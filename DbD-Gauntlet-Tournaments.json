@@ -1,6 +1,6 @@
 {
 	"Name": "Gauntlet",
-	"Version": 1793590185,
+	"Version": 1794456338,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -1952,11 +1952,11 @@
 			],
 			"BalanceTiers": [
 				0,
-				3
+				2
 			],
 			"SurvivorBalanceTiers": [
 				0,
-				3
+				2
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
@@ -1968,7 +1968,9 @@
 			"KillerWhitelistedPerks": [],
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [],
-			"IndividualAddonBans": [],
+			"IndividualAddonBans": [
+				398
+			],
 			"ItemWhitelist": [
 				0,
 				5
